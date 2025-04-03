@@ -1,6 +1,6 @@
 <div>
 
-    <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+    <div class="bg-white  overflow-hidden shadow-sm sm:rounded-lg">
 
         <!--si hay mas de cero vacante se ejecuta este codigo-->
         <!--se va a utilizar la neuva funcion de laravel forelse que solo exite en laravel que se utiliza con empty que es como un if con foreaach para itere y tome la decision dependiendo-->
@@ -8,7 +8,7 @@
 
 
         @forelse ($vacantes as $vacante)
-            <div class="p-6 text-gray-900 dark:text-gray-200 md:flex md:justify-between md:items-center">
+            <div class="p-6 text-gray-900  md:flex md:justify-between md:items-center">
 
                 <div class="space-y-3">
 
